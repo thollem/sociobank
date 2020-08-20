@@ -11,18 +11,18 @@ import org.springframework.stereotype.Component;
  * @author artsgard
  */
 @Component
-public class SocioAccountReader {
+public class AccountReader {
 
     public FlatFileItemReader read() {
 
         return new FlatFileItemReaderBuilder<Account>()
                 .linesToSkip(1)
                 
-                .name("socioaccountreader")
+                .name("socio-account-reader")
                 .resource(new FileSystemResource("this/file/does/not/exist"))
                 .delimited()
                 
-                .names("first", "second", "third")
+                .names("iban", "username", "balance", "currency", "creationDate", "active")
                 .targetType(Account.class)
                 .strict(false)
                 .build();

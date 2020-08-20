@@ -30,27 +30,29 @@ import lombok.ToString;
 public class AccountTransfer implements Serializable {
 
     @Id
+    @Column(name="account_id", nullable = false)
     private Long accountId;
 
     @Id
+    @Column(name="account_transfer_id", nullable = false)
     private Long accountTransferId;
     
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "accountId", updatable = false, insertable = false,
+    @JoinColumn(name = "account_id", updatable = false, insertable = false,
             referencedColumnName = "id")
     private Account account;
     
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "accountTransferId", updatable = false, insertable = false,
+    @JoinColumn(name = "account_transfer_id", updatable = false, insertable = false,
             referencedColumnName = "id")
     private Account accountTransfer;
     
-    @Column(nullable = false)
+    @Column(name="amount", nullable = false)
     private BigDecimal amount;
  
-    @Column(nullable = false)
+    @Column(name="transfer_date", nullable = false)
     private Timestamp transferDate;
   
-    @Column(nullable = true)
+    @Column(name="description", nullable = true)
     private String description;
 }

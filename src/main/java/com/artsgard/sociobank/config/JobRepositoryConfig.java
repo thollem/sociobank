@@ -22,7 +22,6 @@ public class JobRepositoryConfig extends DefaultBatchConfigurer {
     @Qualifier("batchDataSource")
     private DataSource datasource;
 
-    
     @Override
     protected JobRepository createJobRepository() throws Exception {
         JobRepositoryFactoryBean factoryBean = new JobRepositoryFactoryBean();

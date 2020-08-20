@@ -1,9 +1,12 @@
 package com.artsgard.sociobank.config;
 
 import com.artsgard.sociobank.model.Account;
-import com.artsgard.sociobank.prossesor.SocioAccountProcessor;
-import com.artsgard.sociobank.reader.SocioAccountReader;
-import com.artsgard.sociobank.writer.SocioAccountWriter;
+import com.artsgard.sociobank.prossesor.AccountProcessor;
+import com.artsgard.sociobank.prossesor.TransferProcessor;
+import com.artsgard.sociobank.reader.AccountReader;
+import com.artsgard.sociobank.reader.TransferReader;
+import com.artsgard.sociobank.writer.AccountWriter;
+import com.artsgard.sociobank.writer.TransferWriter;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -20,7 +23,6 @@ import org.springframework.transaction.PlatformTransactionManager;
  *
  * @author artsgard
  */
-
 @Configuration
 @EnableBatchProcessing
 public class BatchFlowConfig {
@@ -39,29 +41,48 @@ public class BatchFlowConfig {
     private JobRepository jobRepository;
     
     @Autowired
-    private SocioAccountProcessor socioAccountProcessor;
+    private AccountProcessor accountProcessor;
 
     @Autowired
-    private SocioAccountReader socioAccountReader;
+    private AccountReader accountReader;
 
     @Autowired
-    private SocioAccountWriter socioAccountWriter;
+    private AccountWriter accountWriter;
+    
+    @Autowired
+    private TransferProcessor transferProcessor;
 
-    @Bean(name = "socioaccountjob")
-    public Job socioAccountJob() throws Exception {
-        return jobBuilders.get("batchSocioAccountJob")
+    @Autowired
+    private TransferReader transferReader;
+
+    @Autowired
+    private TransferWriter transferWriter;
+
+    @Bean(name = "socio-account-job")
+    public Job accountJob() throws Exception {
+        return jobBuilders.get("batchAccountJob")
                 .repository(jobRepository)
-                .start(socioAccountStep())
+                .start(accountStep())
                 .build();
     }
 
     @Bean
-    public Step socioAccountStep() throws Exception {
-        return stepBuilders.get("batchSocioAccountStep")
+    public Step accountStep() throws Exception {
+        return stepBuilders.get("batchAccountStep")
                 .<Account, Account>chunk(20)
-                .reader(socioAccountReader.read())
-                .processor(socioAccountProcessor)
-                .writer(socioAccountWriter)
+                .reader(accountReader.read())
+                .processor(accountProcessor)
+                .writer(accountWriter)
+                .build();
+    }
+    
+    @Bean
+    public Step transferStep() throws Exception {
+        return stepBuilders.get("batchTransferStep")
+                .<Account, Account>chunk(20)
+                .reader(transferReader.read())
+                .processor(transferProcessor)
+                .writer(transferWriter)
                 .build();
     }
     
@@ -78,6 +99,4 @@ I simplified the iban (which should be unique)
 Transfers:
 1;2;100;Yesterday’s Lunch;2018-11-01 09:03:56
 2;3;50.67;Online Voucher Gift;2018-11-02 15:37:54
-
-
 */

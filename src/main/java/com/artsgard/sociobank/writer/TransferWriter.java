@@ -13,7 +13,7 @@ import com.artsgard.sociobank.repository.AccountRepository;
  */
 
 @Component
-public class SocioTransfertWriter implements ItemWriter<Account> {
+public class TransferWriter implements ItemWriter<Account> {
     
     @Autowired
     private AccountRepository repo;

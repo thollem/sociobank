@@ -11,7 +11,7 @@ import com.artsgard.sociobank.repository.AccountRepository;
  * @author artsgard
  */
 @Component
-public class SocioTransferProcessor implements ItemProcessor<Account, Account> {
+public class AccountProcessor implements ItemProcessor<Account, Account> {
 
     @Autowired
     private AccountRepository repo;
