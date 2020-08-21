@@ -1,2 +1,3 @@
-3;2;90.00;Yesterday’s Lunch;2018-11-01 09:03:56.0
-2;3;50.67;Online Voucher Gift;2018-11-02 15:37:54.0
+#accountId accountTransferId amount description transferDate
+3;2;30.00;Yesterday’s Lunch;2018-11-01 09:03:56.0
+2;3;10.67;Online Voucher Gift;2018-11-02 15:37:54.0
