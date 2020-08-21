@@ -7,34 +7,33 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 
 /**
  *
  * @author wdragstra
  */
-@NoArgsConstructor
+
+@Data
 @AllArgsConstructor
-@ToString
-@Getter
-@Setter
-@Entity
-@Table(name = "account_transfer") //catalog = "TRANSFER_DB")
+@NoArgsConstructor
+@Entity(name = "AccountTransfer")
+@Table(name = "account_transfer")
+@IdClass(AccountTransferId.class)
 public class AccountTransfer implements Serializable {
 
     @Id
-    @Column(name="account_id", nullable = false)
+    @Column(name="account_id", nullable = true)
     private Long accountId;
 
     @Id
-    @Column(name="account_transfer_id", nullable = false)
+    @Column(name="account_transfer_id", nullable = true)
     private Long accountTransferId;
     
     @ManyToOne(fetch = FetchType.LAZY)
@@ -49,10 +48,11 @@ public class AccountTransfer implements Serializable {
     
     @Column(name="amount", nullable = false)
     private BigDecimal amount;
- 
-    @Column(name="transfer_date", nullable = false)
-    private Timestamp transferDate;
   
     @Column(name="description", nullable = true)
     private String description;
+    
+    @Column(name="transfer_date", nullable = false)
+    private Timestamp transferDate;
+  
 }

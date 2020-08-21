@@ -22,6 +22,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * @author artsgard
+ */
 @RestController
 @RequestMapping("/account")
 public class AccountController {
@@ -44,11 +48,6 @@ public class AccountController {
         return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
-    /**
-     *
-     * @param id
-     * @return
-     */
     @GetMapping(path = "/{id}", produces = "application/json")
     public ResponseEntity<AccountDTO> findAccountById(@PathVariable Long id) {
        AccountDTO account = accountService.findAccountById(id);
@@ -59,11 +58,6 @@ public class AccountController {
        }
     }
 
-    /**
-     *
-     * @param iban
-     * @return
-     */
     @GetMapping(path = "/iban/{iban}", produces = "application/json")
     public ResponseEntity<?> findAccountByIban(@PathVariable String iban) {
         AccountDTO account = accountService.findAccountByIban(iban);
@@ -84,11 +78,6 @@ public class AccountController {
        }
     }
 
-    /**
-     *
-     * @param accountDTO
-     * @return
-     */
     @PostMapping(produces = "application/json", consumes = "application/json")
     public ResponseEntity<?> saveAccount(@Valid @RequestBody AccountDTO accountDTO) {
         AccountDTO account = accountService.saveAccount(accountDTO);
@@ -99,13 +88,7 @@ public class AccountController {
        }
     }
 
-    /**
-     *
-     * @param accountDTO
-     * @param id
-     * @return
-     */
-    @PutMapping(path = "/{id}", produces = "application/json", consumes = "application/json")
+    @PutMapping(produces = "application/json", consumes = "application/json")
     public ResponseEntity<?> updateAccount(@Valid @RequestBody AccountDTO accountDTO) {
         accountService.hasAccountById(accountDTO.getId());       
         return new ResponseEntity<>(accountService.updateAccount(accountDTO), HttpStatus.CREATED);

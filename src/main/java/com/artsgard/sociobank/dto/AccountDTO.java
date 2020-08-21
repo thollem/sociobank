@@ -23,7 +23,6 @@ import lombok.ToString;
 @Setter
 public class AccountDTO implements Serializable {
 
-    @NotNull
     private Long id;
 
     @NotNull

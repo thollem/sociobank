@@ -12,42 +12,35 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
-@Getter
-@Setter
+
+@Data
 @Entity
-@Table(name = "account") // catalog = "TRANSFER_DB")
+@Table(name = "account")
 public class Account implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @Column(nullable = false, unique = true)
+    @Column(name="username", nullable = false, unique = true)
     private String username;
     
-    @Column(nullable = false, unique = true)
+    @Column(name="iban", nullable = false, unique = true)
     private String iban;
     
-    @Column(nullable = false)
+    @Column(name="balance", nullable = false)
     private BigDecimal balance;
     
-    @Column(nullable = false)
+    @Column(name="currency", nullable = false)
     private String currency;
     
-    @Column(nullable = false)
+    @Column(name="creation_date", nullable = false)
     private Timestamp creationDate;
  
-    @Column(nullable = false)
-    private Boolean active;
+    @Column(name="active", nullable = false)
+    private boolean active;
     
     @JsonIgnore
     @OneToMany(targetEntity=AccountTransfer.class, mappedBy="account")

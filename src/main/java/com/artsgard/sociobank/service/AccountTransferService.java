@@ -1,7 +1,6 @@
 package com.artsgard.sociobank.service;
 
 import com.artsgard.sociobank.dto.AccountTransferDTO;
-import com.artsgard.sociobank.model.AccountTransfer;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
@@ -12,8 +11,9 @@ import org.springframework.stereotype.Service;
 @Service
 public interface AccountTransferService {
     List<AccountTransferDTO> findAllAccountTransfers();
+    AccountTransferDTO findAccountTransferByIds(Long accountId, Long accountTransferId);
     List<AccountTransferDTO> findAccountTransfersByAccountId(Long accountId);
-    AccountTransferDTO findAccountTransfersByIban(String iban);
-    AccountTransferDTO updateAccountTransfer(AccountTransferDTO accountDTO);
-    void deleteAccountTransferById(Long accountId, Long accountTransferId);
+    List<AccountTransferDTO> findAccountTransfersByUsername(String username);
+    List<AccountTransferDTO> findAccountTransfersByIban(String iban);
+    AccountTransferDTO saveAccountTransfer(AccountTransferDTO accountDTO);
 }

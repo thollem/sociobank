@@ -16,6 +16,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * @author artsgard
+ */
 @RestController
 @RequestMapping("/transfer")
 public class AccountTransferController {
@@ -28,33 +32,25 @@ public class AccountTransferController {
     @Autowired
     private MapperService mapperService;
 
-    /**
-     *
-     * @return
-     */
     @GetMapping(produces = "application/json")
     public ResponseEntity<?> findAll() {
         return new ResponseEntity<>(transferService.findAllAccountTransfers(), HttpStatus.OK);
     }
 
-    /**
-     *
-     * @param id
-     * @return
-     */
     @GetMapping(path = "/{id}", produces = "application/json")
-    public ResponseEntity<?> findTransferById(@PathVariable Long id) {
+    public ResponseEntity<?> findTransfersByAccountId(@PathVariable Long id) {
         List<AccountTransferDTO> transfers = transferService.findAccountTransfersByAccountId(id);
         return new ResponseEntity<>(transfers, HttpStatus.OK);
     }
+    
+    @GetMapping(path = "/{accountId}/{accountTransferId}", produces = "application/json")
+    public ResponseEntity<?> findTransfersByIds(@PathVariable Long accountId, @PathVariable Long accountTransferId) {
+        AccountTransferDTO transfer = transferService.findAccountTransferByIds(accountId, accountTransferId);
+        return new ResponseEntity<>(transfer, HttpStatus.OK);
+    }
 
-    /**
-     *
-     * @param transferDTO
-     * @return
-     */
     @PostMapping(produces = "application/json", consumes = "application/json")
     public ResponseEntity<?> saveTransfer(@Valid @RequestBody AccountTransferDTO transferDTO) {
-        return new ResponseEntity<>(transferService.updateAccountTransfer(transferDTO), HttpStatus.CREATED);
+        return new ResponseEntity<>(transferService.saveAccountTransfer(transferDTO), HttpStatus.CREATED);
     }
 }

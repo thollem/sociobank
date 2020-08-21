@@ -18,6 +18,10 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 
+ * @author artsgard
+ */
 @SpringBootApplication
 public class SocioBankApplication implements CommandLineRunner {
 
@@ -38,6 +42,7 @@ public class SocioBankApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        /*
         JobParameters jobParameters = new JobParametersBuilder()
                 .addDate("sociobank-date", new Date())
                 .toJobParameters();
@@ -45,11 +50,6 @@ public class SocioBankApplication implements CommandLineRunner {
         JobExecution execution = jobLauncher.run(job, jobParameters);
         log.info("execution.getStatus(): " + execution.getStatus());
         log.info("The time is now {}", dateFormat.format(new Date()));
-    }
-
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        // Do any additional configuration here
-        return builder.build();
+*/
     }
 }

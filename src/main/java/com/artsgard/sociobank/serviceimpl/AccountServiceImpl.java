@@ -43,7 +43,7 @@ public class AccountServiceImpl implements AccountService {
     
     @Override
     public AccountDTO findAccountById(Long id) {
-        Optional<Account> optAccount = repo.findAccountByAccountId(id);
+        Optional<Account> optAccount = repo.findById(id);
         if (optAccount.isPresent()) {
             return map.mapAccountToAccountDTO(optAccount.get());
         } else {
