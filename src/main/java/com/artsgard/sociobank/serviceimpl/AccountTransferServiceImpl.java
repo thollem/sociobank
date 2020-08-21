@@ -8,8 +8,6 @@ import com.artsgard.sociobank.repository.AccountTransferRepository;
 import com.artsgard.sociobank.service.AccountTransferService;
 import com.artsgard.sociobank.service.MapperService;
 import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +61,7 @@ public class AccountTransferServiceImpl implements AccountTransferService {
 
     @Override
     public List<AccountTransferDTO> findAccountTransfersByIban(String iban) {
-        List<AccountTransfer> trans = accountTransferRepository.findByAccountId(1L);
+        List<AccountTransfer> trans = accountTransferRepository.findByIban(iban);
         List<AccountTransferDTO> list = new ArrayList();
         for (AccountTransfer tran: trans) {
             list.add(map.mapAccountTransferToAccountTransferDTO(tran));
@@ -73,7 +71,7 @@ public class AccountTransferServiceImpl implements AccountTransferService {
     
     @Override
     public List<AccountTransferDTO> findAccountTransfersByUsername(String username) {
-        List<AccountTransfer> trans = accountTransferRepository.findByAccountId(1L);
+        List<AccountTransfer> trans = accountTransferRepository.findByUsername(username);
         List<AccountTransferDTO> list = new ArrayList();
         for (AccountTransfer tran: trans) {
             list.add(map.mapAccountTransferToAccountTransferDTO(tran));
@@ -90,17 +88,17 @@ public class AccountTransferServiceImpl implements AccountTransferService {
             Account acc1 = optAccount1.get();
             Account acc2 = optAccount2.get();
             Timestamp now = new Timestamp(System.currentTimeMillis());
-            AccountTransfer trans = new AccountTransfer(transferDTO.getAccountId(), transferDTO.getAccountTransferId(), acc1, 
+            AccountTransfer tran = new AccountTransfer(transferDTO.getAccountId(), transferDTO.getAccountTransferId(), acc1, 
                     acc2, transferDTO.getAmount(), transferDTO.getDescription(), now);
             
             BigDecimal debet = transferDTO.getAmount();
             BigDecimal credit = debet.multiply(convertion(acc1.getCurrency(), acc2.getCurrency()));
             
             acc1.setBalance(acc1.getBalance().subtract(debet));
-            acc2.setBalance(acc1.getBalance().add(credit));
+            acc2.setBalance(acc2.getBalance().add(debet));
             accountRepò.save(acc1);
             accountRepò.save(acc2);
-            return map.mapAccountTransferToAccountTransferDTO(accountTransferRepository.save(trans));
+            return map.mapAccountTransferToAccountTransferDTO(accountTransferRepository.save(tran));
         } else {
             return null;
         }

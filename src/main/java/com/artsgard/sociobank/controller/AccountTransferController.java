@@ -43,6 +43,18 @@ public class AccountTransferController {
         return new ResponseEntity<>(transfers, HttpStatus.OK);
     }
     
+    @GetMapping(path = "/username/{username}", produces = "application/json")
+    public ResponseEntity<?> findTransfersByUsername(@PathVariable String username) {
+        List<AccountTransferDTO> transfers = transferService.findAccountTransfersByUsername(username);
+        return new ResponseEntity<>(transfers, HttpStatus.OK);
+    }
+    
+    @GetMapping(path = "/iban/{iban}", produces = "application/json")
+    public ResponseEntity<?> findTransfersByIban(@PathVariable String iban) {
+        List<AccountTransferDTO> transfers = transferService.findAccountTransfersByIban(iban);
+        return new ResponseEntity<>(transfers, HttpStatus.OK);
+    }
+    
     @GetMapping(path = "/{accountId}/{accountTransferId}", produces = "application/json")
     public ResponseEntity<?> findTransfersByIds(@PathVariable Long accountId, @PathVariable Long accountTransferId) {
         AccountTransferDTO transfer = transferService.findAccountTransferByIds(accountId, accountTransferId);
