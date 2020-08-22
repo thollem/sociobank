@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -37,7 +38,7 @@ public class Account implements Serializable {
     private String currency;
     
     @Column(name="creation_date", nullable = false)
-    private Timestamp creationDate;
+    private Date creationDate;
  
     @Column(name="active", nullable = false)
     private boolean active;

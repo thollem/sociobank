@@ -8,8 +8,8 @@ import com.artsgard.sociobank.repository.AccountTransferRepository;
 import com.artsgard.sociobank.service.AccountTransferService;
 import com.artsgard.sociobank.service.MapperService;
 import java.math.BigDecimal;
-import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import org.slf4j.LoggerFactory;
@@ -87,9 +87,8 @@ public class AccountTransferServiceImpl implements AccountTransferService {
         if (optAccount1.isPresent() && optAccount2.isPresent()) {
             Account acc1 = optAccount1.get();
             Account acc2 = optAccount2.get();
-            Timestamp now = new Timestamp(System.currentTimeMillis());
             AccountTransfer tran = new AccountTransfer(transferDTO.getAccountId(), transferDTO.getAccountTransferId(), acc1, 
-                    acc2, transferDTO.getAmount(), transferDTO.getDescription(), now);
+                    acc2, transferDTO.getAmount(), transferDTO.getDescription(), new Date());
             
             BigDecimal debet = transferDTO.getAmount();
             BigDecimal credit = debet.multiply(convertion(acc1.getCurrency(), acc2.getCurrency()));

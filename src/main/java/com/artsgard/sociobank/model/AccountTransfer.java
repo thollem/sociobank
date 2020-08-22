@@ -3,6 +3,7 @@ package com.artsgard.sociobank.model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -53,6 +54,6 @@ public class AccountTransfer implements Serializable {
     private String description;
     
     @Column(name="transfer_date", nullable = false)
-    private Timestamp transferDate;
+    private Date transferDate;
   
 }

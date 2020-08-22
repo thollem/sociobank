@@ -2,7 +2,7 @@ package com.artsgard.sociobank.dto;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.sql.Timestamp;
+import java.util.Date;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
@@ -34,7 +34,7 @@ public class AccountTransferDTO implements Serializable {
     @Digits(integer=12, fraction=2)
     private BigDecimal amount;
     
-    private Timestamp transferDate;
+    private Date transferDate;
  
     private String description;
 }

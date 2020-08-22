@@ -5,9 +5,9 @@ import com.artsgard.sociobank.service.MapperService;
 import com.artsgard.sociobank.exception.ResourceNotFoundException;
 import com.artsgard.sociobank.model.Account;
 import com.artsgard.sociobank.repository.AccountRepository;
-import com.artsgard.sociobank.service.AccountService;
-import java.sql.Timestamp;
+import com.artsgard.sociobank.service.AccountService;;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import org.slf4j.LoggerFactory;
@@ -74,7 +74,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public AccountDTO saveAccount(AccountDTO accountDTO) {
         Account account = map.mapAccountDTOToAccount(accountDTO);
-        account.setCreationDate(new Timestamp(System.currentTimeMillis()));
+        account.setCreationDate(new Date());
         account.setActive(Boolean.TRUE);
         return map.mapAccountToAccountDTO(repo.save(account));
     }
