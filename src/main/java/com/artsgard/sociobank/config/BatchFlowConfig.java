@@ -1,6 +1,7 @@
 package com.artsgard.sociobank.config;
 
 import com.artsgard.sociobank.model.Account;
+import com.artsgard.sociobank.model.AccountTransfer;
 import com.artsgard.sociobank.prossesor.AccountProcessor;
 import com.artsgard.sociobank.prossesor.TransferProcessor;
 import com.artsgard.sociobank.reader.AccountReader;
@@ -63,6 +64,7 @@ public class BatchFlowConfig {
         return jobBuilders.get("batchAccountJob")
                 .repository(jobRepository)
                 .start(accountStep())
+                .next(transferStep())
                 .build();
     }
 
@@ -79,7 +81,7 @@ public class BatchFlowConfig {
     @Bean
     public Step transferStep() throws Exception {
         return stepBuilders.get("batchTransferStep")
-                .<Account, Account>chunk(20)
+                .<AccountTransfer, AccountTransfer>chunk(20)
                 .reader(transferReader.read())
                 .processor(transferProcessor)
                 .writer(transferWriter)

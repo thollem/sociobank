@@ -6491,3 +6491,1190 @@ Caused by: java.lang.IllegalArgumentException: Cannot access column [isActive] f
 2020-08-22 16:13:12,947 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
 2020-08-22 16:13:12,947 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:13:12
 2020-08-22 16:13:12,948 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:17:23,937 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-19] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:17:23,952 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:17:23,952 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-7 - Shutdown initiated...
+2020-08-22 16:17:23,968 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-7 - Shutdown completed.
+2020-08-22 16:17:23,968 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-8 - Shutdown initiated...
+2020-08-22 16:17:23,984 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-8 - Shutdown completed.
+2020-08-22 16:17:24,400 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:17:24,400 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:17:24,400 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:17:24,730 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:17:24,752 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20ms. Found 2 JPA repository interfaces.
+2020-08-22 16:17:24,914 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:17:24,953 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:17:25,017 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:17:25,018 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:17:25,019 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:17:25,019 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:17:25,035 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:17:25,035 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 635 ms
+2020-08-22 16:17:25,086 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:17:25,109 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2020-08-22 16:17:25,127 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2020-08-22 16:17:25,130 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:17:25,215 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:17:25,216 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:17:25,221 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:17:25,486 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:17:25,536 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:17:25,587 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2020-08-22 16:17:25,707 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2020-08-22 16:17:25,752 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:17:25,752 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:17:25,796 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:17:25,799 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:17:25,800 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.431 seconds (JVM running for 5932.327)
+2020-08-22 16:17:25,802 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:17:26,099 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:17:26,199 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:17:26,300 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 100ms
+2020-08-22 16:17:26,642 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598105846300}]
+2020-08-22 16:17:26,964 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:17:28,576 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 1s612ms
+2020-08-22 16:17:29,328 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598105846300}] and the following status: [COMPLETED] in 2s239ms
+2020-08-22 16:17:29,328 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:17:29,328 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:17:29
+2020-08-22 16:17:29,328 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:17:49,601 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-24] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:17:49,601 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:17:49,601 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-9 - Shutdown initiated...
+2020-08-22 16:17:49,632 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-9 - Shutdown completed.
+2020-08-22 16:17:49,632 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-10 - Shutdown initiated...
+2020-08-22 16:17:49,632 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-10 - Shutdown completed.
+2020-08-22 16:17:50,264 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:17:50,264 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:17:50,264 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:17:50,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:17:50,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 2 JPA repository interfaces.
+2020-08-22 16:17:50,647 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:17:50,693 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:17:50,763 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:17:50,764 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:17:50,764 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:17:50,764 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:17:50,777 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:17:50,777 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 513 ms
+2020-08-22 16:17:50,821 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:17:50,842 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2020-08-22 16:17:50,855 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2020-08-22 16:17:50,856 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:17:50,915 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:17:50,915 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:17:50,919 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:17:51,142 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:17:51,171 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:17:51,206 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2020-08-22 16:17:51,218 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2020-08-22 16:17:51,241 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:17:51,242 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:17:51,279 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:17:51,283 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:17:51,283 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.086 seconds (JVM running for 5957.81)
+2020-08-22 16:17:51,284 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:17:51,485 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:17:51,587 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:17:51,671 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 103ms
+2020-08-22 16:17:52,229 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598105871673}]
+2020-08-22 16:17:52,414 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:17:52,753 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 339ms
+2020-08-22 16:17:52,884 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598105871673}] and the following status: [COMPLETED] in 602ms
+2020-08-22 16:17:52,884 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:17:52,884 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:17:52
+2020-08-22 16:17:52,884 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:18:16,331 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-29] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:18:16,338 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-29] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:18:16,338 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-11 - Shutdown initiated...
+2020-08-22 16:18:16,354 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-11 - Shutdown completed.
+2020-08-22 16:18:16,354 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-12 - Shutdown initiated...
+2020-08-22 16:18:16,354 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-12 - Shutdown completed.
+2020-08-22 16:18:16,809 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:18:16,810 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:18:16,810 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:18:17,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:18:17,256 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22ms. Found 2 JPA repository interfaces.
+2020-08-22 16:18:17,475 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:18:17,543 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:18:17,657 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:18:17,660 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:18:17,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:18:17,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:18:17,677 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:18:17,678 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 865 ms
+2020-08-22 16:18:17,765 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:18:17,807 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2020-08-22 16:18:17,823 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2020-08-22 16:18:17,824 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:18:17,908 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:18:17,908 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:18:17,911 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:18:18,055 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:18:18,082 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:18:18,117 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2020-08-22 16:18:18,128 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2020-08-22 16:18:18,139 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:18:18,139 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:18:18,167 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:18:18,167 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:18:18,167 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.433 seconds (JVM running for 5984.707)
+2020-08-22 16:18:18,167 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:18:18,483 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:18:18,645 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:18:18,755 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 162ms
+2020-08-22 16:18:19,316 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598105898756}]
+2020-08-22 16:18:19,728 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:18:20,673 ERROR org.springframework.batch.core.step.AbstractStep [restartedMain] Encountered an error executing step batchAccountStep in job batchAccountJob
+org.springframework.batch.item.file.FlatFileParseException: Parsing error at line: 3 in resource=[file [C:\Users\artsgard\Documents\workspacejava\sociobank\accounts.csv]], input=[es24;rw;90.67;GBP;2020-08-21 16:22:06;1]
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:189)
+	at org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader.read(AbstractItemCountingItemStreamItemReader.java:93)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.doRead(SimpleChunkProvider.java:99)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.read(SimpleChunkProvider.java:180)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider$1.doInIteration(SimpleChunkProvider.java:126)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.provide(SimpleChunkProvider.java:118)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:71)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:410)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:319)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:147)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy190.run(Unknown Source)
+	at com.artsgard.sociobank.SocioBankApplication.run(SocioBankApplication.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.artsgard.sociobank.SocioBankApplication.main(SocioBankApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.artsgard.sociobank.model.Account.setCreationDate
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:22)
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:12)
+	at org.springframework.batch.item.file.mapping.DefaultLineMapper.mapLine(DefaultLineMapper.java:43)
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:185)
+	... 49 common frames omitted
+2020-08-22 16:18:20,673 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 945ms
+2020-08-22 16:18:20,812 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598105898756}] and the following status: [FAILED] in 1s443ms
+2020-08-22 16:18:20,813 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): FAILED
+2020-08-22 16:18:20,813 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:18:20
+2020-08-22 16:18:20,813 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:18:39,970 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-34] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:18:39,971 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-34] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:18:39,972 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-13 - Shutdown initiated...
+2020-08-22 16:18:39,981 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-13 - Shutdown completed.
+2020-08-22 16:18:39,981 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-14 - Shutdown initiated...
+2020-08-22 16:18:39,992 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-14 - Shutdown completed.
+2020-08-22 16:18:40,671 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:18:40,672 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:18:40,673 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:18:40,904 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:18:40,920 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces.
+2020-08-22 16:18:41,046 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:18:41,083 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:18:41,146 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:18:41,146 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:18:41,146 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:18:41,146 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:18:41,162 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:18:41,162 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 486 ms
+2020-08-22 16:18:41,199 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:18:41,231 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2020-08-22 16:18:41,231 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2020-08-22 16:18:41,231 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:18:41,311 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:18:41,311 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:18:41,311 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:18:41,441 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:18:41,470 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:18:41,516 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2020-08-22 16:18:41,532 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2020-08-22 16:18:41,670 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:18:41,686 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:18:41,717 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:18:41,717 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:18:41,717 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.097 seconds (JVM running for 6008.257)
+2020-08-22 16:18:41,733 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:18:42,204 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:18:42,308 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:18:42,393 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 104ms
+2020-08-22 16:18:42,672 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598105922393}]
+2020-08-22 16:18:43,043 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:18:43,459 ERROR org.springframework.batch.core.step.AbstractStep [restartedMain] Encountered an error executing step batchAccountStep in job batchAccountJob
+org.springframework.batch.item.file.FlatFileParseException: Parsing error at line: 3 in resource=[file [C:\Users\artsgard\Documents\workspacejava\sociobank\accounts.csv]], input=[es24;rw;90.67;GBP;2020-08-21 16:22:06;1]
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:189)
+	at org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader.read(AbstractItemCountingItemStreamItemReader.java:93)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.doRead(SimpleChunkProvider.java:99)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.read(SimpleChunkProvider.java:180)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider$1.doInIteration(SimpleChunkProvider.java:126)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.provide(SimpleChunkProvider.java:118)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:71)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:410)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:319)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:147)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy201.run(Unknown Source)
+	at com.artsgard.sociobank.SocioBankApplication.run(SocioBankApplication.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.artsgard.sociobank.SocioBankApplication.main(SocioBankApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.artsgard.sociobank.model.Account.setCreationDate
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:22)
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:12)
+	at org.springframework.batch.item.file.mapping.DefaultLineMapper.mapLine(DefaultLineMapper.java:43)
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:185)
+	... 49 common frames omitted
+2020-08-22 16:18:43,474 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 431ms
+2020-08-22 16:18:43,807 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598105922393}] and the following status: [FAILED] in 972ms
+2020-08-22 16:18:43,808 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): FAILED
+2020-08-22 16:18:43,808 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:18:43
+2020-08-22 16:18:43,811 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:19:48,694 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-39] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:19:48,697 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-39] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:19:48,697 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-15 - Shutdown initiated...
+2020-08-22 16:19:48,707 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-15 - Shutdown completed.
+2020-08-22 16:19:48,707 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-16 - Shutdown initiated...
+2020-08-22 16:19:48,725 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-16 - Shutdown completed.
+2020-08-22 16:19:49,258 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:19:49,258 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:19:49,258 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:19:49,421 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:19:49,428 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19ms. Found 2 JPA repository interfaces.
+2020-08-22 16:19:49,528 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:19:49,559 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:19:49,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:19:49,606 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:19:49,606 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:19:49,606 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:19:49,628 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:19:49,628 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 370 ms
+2020-08-22 16:19:49,659 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:19:49,675 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2020-08-22 16:19:49,702 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2020-08-22 16:19:49,703 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:19:49,772 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:19:49,772 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:19:49,777 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:19:49,934 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:19:49,966 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:19:50,000 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Starting...
+2020-08-22 16:19:50,010 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Start completed.
+2020-08-22 16:19:50,102 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:19:50,103 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:19:50,188 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:19:50,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:19:50,195 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 0.959 seconds (JVM running for 6076.722)
+2020-08-22 16:19:50,197 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:19:50,573 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:19:50,762 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:19:50,865 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 189ms
+2020-08-22 16:19:51,515 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598105990866}]
+2020-08-22 16:19:51,791 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:19:51,937 ERROR org.springframework.batch.core.step.AbstractStep [restartedMain] Encountered an error executing step batchAccountStep in job batchAccountJob
+org.springframework.batch.item.file.FlatFileParseException: Parsing error at line: 3 in resource=[file [C:\Users\artsgard\Documents\workspacejava\sociobank\accounts.csv]], input=[es24;rw;90.67;GBP;2020-08-21 16:22:06;1]
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:189)
+	at org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader.read(AbstractItemCountingItemStreamItemReader.java:93)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.doRead(SimpleChunkProvider.java:99)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.read(SimpleChunkProvider.java:180)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider$1.doInIteration(SimpleChunkProvider.java:126)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.provide(SimpleChunkProvider.java:118)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:71)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:410)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:319)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:147)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy212.run(Unknown Source)
+	at com.artsgard.sociobank.SocioBankApplication.run(SocioBankApplication.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.artsgard.sociobank.SocioBankApplication.main(SocioBankApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.artsgard.sociobank.model.Account.setCreationDate
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:22)
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:12)
+	at org.springframework.batch.item.file.mapping.DefaultLineMapper.mapLine(DefaultLineMapper.java:43)
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:185)
+	... 49 common frames omitted
+2020-08-22 16:19:51,940 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 149ms
+2020-08-22 16:19:52,087 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598105990866}] and the following status: [FAILED] in 502ms
+2020-08-22 16:19:52,087 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): FAILED
+2020-08-22 16:19:52,087 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:19:52
+2020-08-22 16:19:52,087 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:20:11,036 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-44] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:20:11,038 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-44] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:20:11,039 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-17 - Shutdown initiated...
+2020-08-22 16:20:11,053 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-17 - Shutdown completed.
+2020-08-22 16:20:11,054 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-18 - Shutdown initiated...
+2020-08-22 16:20:11,060 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-18 - Shutdown completed.
+2020-08-22 16:20:11,513 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:20:11,514 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:20:11,514 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:20:11,718 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:20:11,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 2 JPA repository interfaces.
+2020-08-22 16:20:11,834 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:20:11,865 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:20:11,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:20:11,919 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:20:11,919 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:20:11,919 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:20:11,934 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:20:11,934 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 417 ms
+2020-08-22 16:20:11,966 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:20:11,981 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Starting...
+2020-08-22 16:20:11,981 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Start completed.
+2020-08-22 16:20:11,981 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:20:12,035 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:20:12,035 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:20:12,050 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:20:12,166 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:20:12,204 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:20:12,235 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Starting...
+2020-08-22 16:20:12,235 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Start completed.
+2020-08-22 16:20:12,266 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:20:12,266 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:20:12,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:20:12,304 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:20:12,304 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 0.834 seconds (JVM running for 6098.837)
+2020-08-22 16:20:12,304 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:20:12,467 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:20:12,567 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:20:12,725 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 100ms
+2020-08-22 16:20:12,951 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106012726}]
+2020-08-22 16:20:13,400 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:20:13,810 ERROR org.springframework.batch.core.step.AbstractStep [restartedMain] Encountered an error executing step batchAccountStep in job batchAccountJob
+org.springframework.batch.item.file.FlatFileParseException: Parsing error at line: 3 in resource=[file [C:\Users\artsgard\Documents\workspacejava\sociobank\accounts.csv]], input=[es24;rw;90.67;GBP;2020-08-21 16:22:06;1]
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:189)
+	at org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader.read(AbstractItemCountingItemStreamItemReader.java:93)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.doRead(SimpleChunkProvider.java:99)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.read(SimpleChunkProvider.java:180)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider$1.doInIteration(SimpleChunkProvider.java:126)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.provide(SimpleChunkProvider.java:118)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:71)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:410)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:319)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:147)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy223.run(Unknown Source)
+	at com.artsgard.sociobank.SocioBankApplication.run(SocioBankApplication.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.artsgard.sociobank.SocioBankApplication.main(SocioBankApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.artsgard.sociobank.model.Account.setCreationDate
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:22)
+	at com.artsgard.sociobank.reader.AccountFieldSetMapper.mapFieldSet(AccountFieldSetMapper.java:12)
+	at org.springframework.batch.item.file.mapping.DefaultLineMapper.mapLine(DefaultLineMapper.java:43)
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:185)
+	... 49 common frames omitted
+2020-08-22 16:20:13,815 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 415ms
+2020-08-22 16:20:14,074 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106012726}] and the following status: [FAILED] in 1s59ms
+2020-08-22 16:20:14,074 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): FAILED
+2020-08-22 16:20:14,074 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:20:14
+2020-08-22 16:20:14,074 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:20:33,086 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-49] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:20:33,087 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-49] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:20:33,088 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-19 - Shutdown initiated...
+2020-08-22 16:20:33,097 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-19 - Shutdown completed.
+2020-08-22 16:20:33,098 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-20 - Shutdown initiated...
+2020-08-22 16:20:33,107 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-20 - Shutdown completed.
+2020-08-22 16:20:33,673 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:20:33,674 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:20:33,674 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:20:33,861 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:20:33,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces.
+2020-08-22 16:20:33,939 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:20:33,954 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:20:34,004 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:20:34,004 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:20:34,004 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:20:34,020 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:20:34,020 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:20:34,020 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 343 ms
+2020-08-22 16:20:34,051 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:20:34,067 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Starting...
+2020-08-22 16:20:34,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Start completed.
+2020-08-22 16:20:34,082 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:20:34,136 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:20:34,136 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:20:34,136 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:20:34,336 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:20:34,352 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:20:34,383 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-22 - Starting...
+2020-08-22 16:20:34,390 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-22 - Start completed.
+2020-08-22 16:20:34,437 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:20:34,437 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:20:34,506 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:20:34,506 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:20:34,506 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 0.875 seconds (JVM running for 6121.04)
+2020-08-22 16:20:34,506 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:20:34,791 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:20:34,937 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:20:35,007 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 146ms
+2020-08-22 16:20:35,523 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106035007}]
+2020-08-22 16:20:35,854 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:20:36,288 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 433ms
+2020-08-22 16:20:36,395 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106035007}] and the following status: [COMPLETED] in 804ms
+2020-08-22 16:20:36,395 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:20:36,395 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:20:36
+2020-08-22 16:20:36,395 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:23:15,269 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-54] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:23:15,269 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-54] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:23:15,269 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-21 - Shutdown initiated...
+2020-08-22 16:23:15,285 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-21 - Shutdown completed.
+2020-08-22 16:23:15,285 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-22 - Shutdown initiated...
+2020-08-22 16:23:15,301 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-22 - Shutdown completed.
+2020-08-22 16:23:15,735 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:23:15,735 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:23:15,735 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:23:15,917 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:23:15,929 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 2 JPA repository interfaces.
+2020-08-22 16:23:16,005 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:23:16,041 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:23:16,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:23:16,087 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:23:16,087 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:23:16,087 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:23:16,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:23:16,103 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 365 ms
+2020-08-22 16:23:16,141 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:23:16,141 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-23 - Starting...
+2020-08-22 16:23:16,156 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-23 - Start completed.
+2020-08-22 16:23:16,156 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:23:16,203 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:23:16,203 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:23:16,203 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:23:16,388 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:23:16,458 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:23:16,488 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-24 - Starting...
+2020-08-22 16:23:16,509 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-24 - Start completed.
+2020-08-22 16:23:16,519 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:23:16,519 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:23:16,559 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:23:16,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:23:16,567 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 0.866 seconds (JVM running for 6283.093)
+2020-08-22 16:23:16,567 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:23:16,867 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:23:16,942 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:23:17,042 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 75ms
+2020-08-22 16:23:17,298 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106197043}]
+2020-08-22 16:23:17,589 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:23:17,962 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 373ms
+2020-08-22 16:23:18,131 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106197043}] and the following status: [COMPLETED] in 749ms
+2020-08-22 16:23:18,131 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:23:18,131 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:23:18
+2020-08-22 16:23:18,131 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:24:00,255 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-59] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:24:00,271 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-59] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:24:00,271 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-23 - Shutdown initiated...
+2020-08-22 16:24:00,278 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-23 - Shutdown completed.
+2020-08-22 16:24:00,278 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-24 - Shutdown initiated...
+2020-08-22 16:24:00,293 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-24 - Shutdown completed.
+2020-08-22 16:24:00,834 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:24:00,834 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:24:00,835 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:24:00,969 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:24:00,978 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces.
+2020-08-22 16:24:01,045 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:24:01,063 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:24:01,104 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:24:01,105 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:24:01,105 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:24:01,105 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:24:01,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:24:01,116 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 279 ms
+2020-08-22 16:24:01,143 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:24:01,158 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-25 - Starting...
+2020-08-22 16:24:01,167 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-25 - Start completed.
+2020-08-22 16:24:01,168 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:24:01,221 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:24:01,221 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:24:01,225 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:24:01,350 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:24:01,375 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:24:01,399 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-26 - Starting...
+2020-08-22 16:24:01,406 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-26 - Start completed.
+2020-08-22 16:24:01,415 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:24:01,415 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:24:01,442 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:24:01,445 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:24:01,445 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 0.639 seconds (JVM running for 6327.971)
+2020-08-22 16:24:01,446 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:24:01,645 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:24:01,782 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:24:01,993 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 137ms
+2020-08-22 16:24:02,416 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106241994}]
+2020-08-22 16:24:02,745 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:24:03,117 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 371ms
+2020-08-22 16:24:03,233 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106241994}] and the following status: [COMPLETED] in 749ms
+2020-08-22 16:24:03,233 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:24:03,249 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:24:03
+2020-08-22 16:24:03,249 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:33:50,562 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-64] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:33:50,563 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-64] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:33:50,564 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-25 - Shutdown initiated...
+2020-08-22 16:33:50,572 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-25 - Shutdown completed.
+2020-08-22 16:33:50,572 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-26 - Shutdown initiated...
+2020-08-22 16:33:50,581 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-26 - Shutdown completed.
+2020-08-22 16:33:51,030 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 12012 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:33:51,030 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:33:51,030 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:33:51,215 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:33:51,231 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces.
+2020-08-22 16:33:51,315 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:33:51,331 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:33:51,400 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:33:51,400 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:33:51,400 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:33:51,400 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:33:51,416 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:33:51,416 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 386 ms
+2020-08-22 16:33:51,510 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:33:51,613 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-27 - Starting...
+2020-08-22 16:33:51,623 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-27 - Start completed.
+2020-08-22 16:33:51,623 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:33:51,672 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:33:51,672 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:33:51,688 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:33:51,830 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:33:51,866 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:33:51,901 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-28 - Starting...
+2020-08-22 16:33:51,912 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-28 - Start completed.
+2020-08-22 16:33:52,026 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:33:52,027 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:33:52,064 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:33:52,067 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:33:52,068 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.053 seconds (JVM running for 6918.594)
+2020-08-22 16:33:52,069 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:33:52,537 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:33:52,689 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:33:52,734 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 151ms
+2020-08-22 16:33:53,004 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106832735}]
+2020-08-22 16:33:53,438 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:33:54,271 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 833ms
+2020-08-22 16:33:54,485 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106832735}] and the following status: [COMPLETED] in 1s404ms
+2020-08-22 16:33:54,486 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:33:54,487 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:33:54
+2020-08-22 16:33:54,488 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:35:22,754 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 20972 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:35:22,757 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:35:22,758 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:35:22,932 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:35:22,933 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:35:22,933 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:35:23,766 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:35:23,860 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78ms. Found 2 JPA repository interfaces.
+2020-08-22 16:35:24,680 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:35:25,566 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:35:25,582 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:35:25,582 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:35:25,582 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:35:25,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:35:25,777 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2844 ms
+2020-08-22 16:35:26,171 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:35:26,311 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:35:26,565 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:35:26,861 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:35:27,901 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:35:27,979 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:35:29,681 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:35:29,690 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:35:29,707 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:35:30,924 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:35:31,186 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:35:31,518 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:35:31,538 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:35:31,648 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:35:31,686 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:35:31,933 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:35:31,987 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:35:31,990 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 10.385 seconds (JVM running for 11.373)
+2020-08-22 16:35:31,991 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:35:32,399 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:35:32,559 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:35:32,703 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 130ms
+2020-08-22 16:35:33,143 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598106932709}]
+2020-08-22 16:35:33,470 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:35:33,906 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 435ms
+2020-08-22 16:35:34,169 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598106932709}] and the following status: [COMPLETED] in 862ms
+2020-08-22 16:35:34,169 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:35:34,169 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:35:34
+2020-08-22 16:37:59,409 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:37:59,412 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:37:59,415 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-08-22 16:37:59,431 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-08-22 16:37:59,432 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-08-22 16:37:59,444 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-08-22 16:37:59,875 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 20972 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:37:59,875 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:37:59,876 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:38:00,238 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:38:00,251 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 2 JPA repository interfaces.
+2020-08-22 16:38:00,397 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:38:00,451 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:38:00,528 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:38:00,529 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:38:00,530 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:38:00,531 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:38:00,560 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:38:00,561 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 682 ms
+2020-08-22 16:38:00,626 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:38:00,650 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2020-08-22 16:38:00,670 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2020-08-22 16:38:00,671 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:38:00,779 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:38:00,783 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:38:00,792 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:38:01,171 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:38:01,235 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:38:01,306 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2020-08-22 16:38:01,335 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2020-08-22 16:38:01,358 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:38:01,358 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:38:01,429 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:38:01,434 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:38:01,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.614 seconds (JVM running for 160.825)
+2020-08-22 16:38:01,442 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:38:01,672 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:38:01,777 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:38:01,872 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 105ms
+2020-08-22 16:38:02,131 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107081872}]
+2020-08-22 16:38:02,805 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:38:03,728 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 922ms
+2020-08-22 16:38:03,928 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107081872}] and the following status: [COMPLETED] in 1s731ms
+2020-08-22 16:38:03,931 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:38:03,932 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:38:03
+2020-08-22 16:38:03,937 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:38:54,418 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 18748 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:38:54,418 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:38:54,418 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:38:54,581 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:38:54,581 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:38:54,581 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:38:55,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:38:55,626 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78ms. Found 2 JPA repository interfaces.
+2020-08-22 16:38:57,139 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:38:58,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:38:58,917 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:38:58,917 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:38:58,917 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:38:59,034 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:38:59,034 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4453 ms
+2020-08-22 16:38:59,489 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:38:59,600 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:38:59,922 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:39:00,304 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:39:01,258 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:39:01,288 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:39:02,621 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:39:02,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:39:02,683 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:39:04,386 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:39:04,535 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:39:04,786 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:39:04,814 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:39:04,907 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:39:04,944 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:39:05,173 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:39:05,242 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:39:05,245 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 11.696 seconds (JVM running for 14.168)
+2020-08-22 16:39:05,248 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:39:05,925 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:39:06,148 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:39:06,266 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 164ms
+2020-08-22 16:39:06,557 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107146271}]
+2020-08-22 16:39:06,903 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:39:07,386 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 483ms
+2020-08-22 16:39:07,527 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107146271}] and the following status: [COMPLETED] in 888ms
+2020-08-22 16:39:07,527 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:39:07,527 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:39:07
+2020-08-22 16:40:19,343 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:40:19,358 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:40:19,365 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-08-22 16:40:19,380 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-08-22 16:40:19,380 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-08-22 16:40:19,396 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-08-22 16:40:19,919 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 18748 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:40:19,919 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:40:19,919 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:40:20,235 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:40:20,253 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17ms. Found 2 JPA repository interfaces.
+2020-08-22 16:40:20,453 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:40:20,510 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:40:20,594 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:40:20,595 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:40:20,595 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:40:20,596 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:40:20,643 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:40:20,644 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 721 ms
+2020-08-22 16:40:20,777 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:40:20,805 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2020-08-22 16:40:20,823 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2020-08-22 16:40:20,823 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:40:20,913 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:40:20,913 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:40:20,923 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:40:21,185 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:40:21,236 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:40:21,294 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2020-08-22 16:40:21,306 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2020-08-22 16:40:21,366 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:40:21,366 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:40:21,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:40:21,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:40:21,447 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 1.595 seconds (JVM running for 90.375)
+2020-08-22 16:40:21,447 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:40:21,788 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:40:22,200 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:40:22,311 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 410ms
+2020-08-22 16:40:22,602 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107222311}]
+2020-08-22 16:40:22,968 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:40:23,435 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 467ms
+2020-08-22 16:40:23,588 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107222311}] and the following status: [COMPLETED] in 917ms
+2020-08-22 16:40:23,588 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:40:23,588 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:40:23
+2020-08-22 16:40:23,603 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:40:52,220 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 14528 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:40:52,222 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:40:52,222 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:40:52,331 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:40:52,332 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:40:52,332 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:40:54,610 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:40:54,729 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 101ms. Found 2 JPA repository interfaces.
+2020-08-22 16:40:56,449 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:40:58,661 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:40:58,673 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:40:58,673 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:40:58,673 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:40:58,798 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:40:58,799 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6466 ms
+2020-08-22 16:40:59,263 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:40:59,359 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:40:59,573 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:40:59,794 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:41:00,983 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:41:01,025 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:41:02,329 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:41:02,329 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:41:02,360 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:41:03,818 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:41:04,079 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:41:04,452 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:41:04,472 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:41:04,597 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:41:04,641 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:41:04,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:41:04,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:41:04,976 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 13.876 seconds (JVM running for 15.643)
+2020-08-22 16:41:04,978 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:41:05,514 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:41:05,684 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:41:05,802 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 130ms
+2020-08-22 16:41:06,121 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107265803}]
+2020-08-22 16:41:06,368 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:41:06,935 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 566ms
+2020-08-22 16:41:07,086 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107265803}] and the following status: [COMPLETED] in 882ms
+2020-08-22 16:41:07,086 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:41:07,086 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:41:07
+2020-08-22 16:42:48,378 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:42:48,378 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:42:48,378 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-08-22 16:42:48,416 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-08-22 16:42:48,416 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-08-22 16:42:48,416 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-08-22 16:42:48,992 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 14528 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:42:48,994 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:42:48,995 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:42:49,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:42:49,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20ms. Found 2 JPA repository interfaces.
+2020-08-22 16:42:50,020 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:42:50,139 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:42:50,470 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:42:50,473 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:42:50,473 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:42:50,474 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:42:50,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:42:50,523 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1522 ms
+2020-08-22 16:42:50,670 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:42:50,721 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2020-08-22 16:42:50,746 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2020-08-22 16:42:50,747 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:42:50,946 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:42:50,947 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:42:50,954 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:42:59,863 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:42:59,928 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:42:59,980 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2020-08-22 16:42:59,992 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2020-08-22 16:43:00,035 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:43:00,036 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:43:00,112 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:43:00,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:43:00,129 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 11.232 seconds (JVM running for 130.796)
+2020-08-22 16:43:00,131 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:43:00,372 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:43:00,468 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:43:00,547 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 96ms
+2020-08-22 16:43:00,780 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107380548}]
+2020-08-22 16:43:01,587 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:43:02,557 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 970ms
+2020-08-22 16:43:02,921 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107380548}] and the following status: [COMPLETED] in 2s52ms
+2020-08-22 16:43:02,921 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:43:02,921 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:43:02
+2020-08-22 16:43:02,921 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:43:57,056 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:43:57,058 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:43:57,060 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-3 - Shutdown initiated...
+2020-08-22 16:43:57,082 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-3 - Shutdown completed.
+2020-08-22 16:43:57,083 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-4 - Shutdown initiated...
+2020-08-22 16:43:57,098 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-4 - Shutdown completed.
+2020-08-22 16:43:57,626 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 14528 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:43:57,626 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:43:57,627 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:43:58,043 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:43:58,064 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
+2020-08-22 16:43:58,257 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:43:58,304 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:43:58,373 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:43:58,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:43:58,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:43:58,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:43:58,389 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:43:58,389 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 756 ms
+2020-08-22 16:43:58,458 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:43:58,527 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2020-08-22 16:43:58,543 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2020-08-22 16:43:58,543 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:43:58,637 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:43:58,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:43:58,639 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:44:03,566 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:44:03,613 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:44:03,666 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2020-08-22 16:44:03,682 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2020-08-22 16:44:03,755 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:44:03,756 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:44:03,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:44:03,827 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:44:03,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 6.258 seconds (JVM running for 194.495)
+2020-08-22 16:44:03,830 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:44:04,160 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:44:04,324 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:44:04,384 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 164ms
+2020-08-22 16:44:04,719 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107444385}]
+2020-08-22 16:44:05,117 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:44:05,855 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 738ms
+2020-08-22 16:44:06,181 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107444385}] and the following status: [COMPLETED] in 1s299ms
+2020-08-22 16:44:06,181 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:44:06,181 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:44:06
+2020-08-22 16:44:06,196 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:45:00,170 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 18124 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:45:00,170 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:45:00,170 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:45:00,223 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:45:00,223 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:45:00,223 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:45:01,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:45:01,229 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82ms. Found 2 JPA repository interfaces.
+2020-08-22 16:45:01,992 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:45:02,609 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:45:02,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:45:02,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:45:02,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:45:02,771 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:45:02,772 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2549 ms
+2020-08-22 16:45:03,130 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:45:03,216 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:45:03,383 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:45:03,555 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:45:04,412 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:45:04,434 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:45:05,562 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:45:05,577 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:45:05,593 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:45:06,501 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:45:06,689 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:45:06,977 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:45:06,998 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:45:07,101 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:45:07,142 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:45:07,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:45:07,394 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:45:07,394 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 7.841 seconds (JVM running for 8.385)
+2020-08-22 16:45:07,402 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:45:07,875 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:45:08,180 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:45:08,300 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 255ms
+2020-08-22 16:45:08,803 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107508302}]
+2020-08-22 16:45:09,036 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:45:09,591 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 555ms
+2020-08-22 16:45:09,765 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107508302}] and the following status: [COMPLETED] in 881ms
+2020-08-22 16:45:09,767 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:45:09,769 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:45:09
+2020-08-22 16:47:53,157 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 18896 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:47:53,189 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:47:53,195 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:47:53,378 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:47:53,378 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:47:53,386 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:47:54,405 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:47:54,494 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 81ms. Found 2 JPA repository interfaces.
+2020-08-22 16:47:55,739 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:47:56,889 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:47:56,905 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:47:56,906 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:47:56,906 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:47:57,028 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:47:57,029 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3643 ms
+2020-08-22 16:47:57,489 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:47:57,588 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:47:57,765 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:47:57,935 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:47:58,746 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:47:58,771 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:47:59,989 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:47:59,989 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:48:00,020 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:48:25,461 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:48:25,649 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:48:25,992 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:48:26,030 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:48:26,091 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:48:26,133 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:48:26,352 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:48:26,385 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:48:26,393 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 34.199 seconds (JVM running for 35.81)
+2020-08-22 16:48:26,395 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:48:26,760 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:48:26,878 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:48:26,976 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 71ms
+2020-08-22 16:48:27,693 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107706976}]
+2020-08-22 16:48:28,043 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:48:28,797 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 754ms
+2020-08-22 16:48:29,036 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107706976}] and the following status: [COMPLETED] in 1s209ms
+2020-08-22 16:48:29,037 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:48:29,038 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:48:29
+2020-08-22 16:49:22,844 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:49:22,846 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:49:22,849 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-08-22 16:49:22,876 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-08-22 16:49:22,877 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-08-22 16:49:22,890 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-08-22 16:49:23,401 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 18896 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:49:23,401 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:49:23,401 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:49:23,794 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:49:23,813 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17ms. Found 2 JPA repository interfaces.
+2020-08-22 16:49:24,036 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:49:24,076 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2020-08-22 16:49:24,147 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:49:24,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:49:24,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:49:24,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:49:24,177 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:49:24,185 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 768 ms
+2020-08-22 16:49:24,257 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:49:24,288 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2020-08-22 16:49:24,306 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2020-08-22 16:49:24,306 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:49:24,408 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:49:24,408 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:49:24,408 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:49:28,603 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:49:28,672 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:49:28,730 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2020-08-22 16:49:28,746 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2020-08-22 16:49:28,810 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:49:28,811 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:49:28,888 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:49:28,892 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:49:28,896 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 5.559 seconds (JVM running for 98.313)
+2020-08-22 16:49:28,898 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:49:29,221 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:49:29,370 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:49:29,785 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchTransferStep]
+2020-08-22 16:49:59,750 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchTransferStep] executed in 29s965ms
+2020-08-22 16:50:00,228 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 30s828ms
+2020-08-22 16:50:04,136 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107803302}]
+2020-08-22 16:50:04,437 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:50:04,938 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 501ms
+2020-08-22 16:50:05,154 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchTransferStep]
+2020-08-22 16:50:07,177 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchTransferStep] executed in 2s23ms
+2020-08-22 16:50:07,376 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107803302}] and the following status: [COMPLETED] in 3s126ms
+2020-08-22 16:50:07,377 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:50:07,377 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:50:07
+2020-08-22 16:50:07,380 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-22 16:51:49,140 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SocioBankApplication on DESKTOP-J0G3D5V with PID 4980 (C:\Users\artsgard\Documents\workspacejava\sociobank\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\sociobank)
+2020-08-22 16:51:49,144 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-22 16:51:49,145 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-22 16:51:49,257 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-08-22 16:51:49,257 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-22 16:51:49,258 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-22 16:51:50,049 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-22 16:51:50,144 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 74ms. Found 2 JPA repository interfaces.
+2020-08-22 16:51:50,901 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-22 16:51:51,699 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-08-22 16:51:51,717 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:51:51,719 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-22 16:51:51,720 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-08-22 16:51:51,853 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-22 16:51:51,853 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2594 ms
+2020-08-22 16:51:52,206 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-08-22 16:51:52,327 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-08-22 16:51:52,486 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-22 16:51:52,799 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-22 16:51:53,744 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-22 16:51:53,773 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-22 16:51:55,089 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-22 16:51:55,098 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-08-22 16:51:55,118 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-22 16:51:56,114 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-22 16:51:56,265 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-22 16:51:56,485 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-08-22 16:51:56,505 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-08-22 16:51:56,608 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-08-22 16:51:56,646 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-08-22 16:51:56,819 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-08-22 16:51:56,851 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-22 16:51:56,853 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SocioBankApplication in 8.327 seconds (JVM running for 8.917)
+2020-08-22 16:51:56,855 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-08-22 16:51:57,307 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{}]
+2020-08-22 16:51:57,529 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batchAccountStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:51:57,529 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=45, version=3, name=batchTransferStep, status=COMPLETED, exitStatus=COMPLETED, readCount=1, filterCount=0, writeCount=1 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-08-22 16:51:57,660 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 154ms
+2020-08-22 16:51:58,310 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] launched with the following parameters: [{sociobank-date=1598107917660}]
+2020-08-22 16:51:58,693 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchAccountStep]
+2020-08-22 16:51:59,392 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchAccountStep] executed in 698ms
+2020-08-22 16:51:59,608 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batchTransferStep]
+2020-08-22 16:52:00,177 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batchTransferStep] executed in 569ms
+2020-08-22 16:52:00,324 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batchAccountJob]] completed with the following parameters: [{sociobank-date=1598107917660}] and the following status: [COMPLETED] in 1s930ms
+2020-08-22 16:52:00,340 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] execution.getStatus(): COMPLETED
+2020-08-22 16:52:00,340 INFO com.artsgard.sociobank.SocioBankApplication [restartedMain] The time is now 16:52:00

@@ -19,7 +19,7 @@ public class AccountWriter implements ItemWriter<Account> {
     private AccountRepository repo;
     
     @Override
-    public void write(List<? extends Account> socios) throws Exception {
-        repo.saveAll(socios);
+    public void write(List<? extends Account> accounts) throws Exception {
+        repo.saveAll(accounts);
     }
 }

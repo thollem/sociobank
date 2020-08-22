@@ -17,8 +17,8 @@ public class AccountProcessor implements ItemProcessor<Account, Account> {
     private AccountRepository repo;
 
     @Override
-    public Account process(Account socioAccount) throws Exception {
+    public Account process(Account account) throws Exception {
        
-        return socioAccount;
+        return account;
     }
 }

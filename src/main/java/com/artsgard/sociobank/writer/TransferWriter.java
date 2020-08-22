@@ -1,11 +1,11 @@
 package com.artsgard.sociobank.writer;
 
-import com.artsgard.sociobank.model.Account;
+import com.artsgard.sociobank.model.AccountTransfer;
 import java.util.List;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.artsgard.sociobank.repository.AccountRepository;
+import com.artsgard.sociobank.repository.AccountTransferRepository;
 
 /**
  *
@@ -13,13 +13,13 @@ import com.artsgard.sociobank.repository.AccountRepository;
  */
 
 @Component
-public class TransferWriter implements ItemWriter<Account> {
+public class TransferWriter implements ItemWriter<AccountTransfer> {
     
     @Autowired
-    private AccountRepository repo;
+    private AccountTransferRepository repo;
     
     @Override
-    public void write(List<? extends Account> socios) throws Exception {
-        repo.saveAll(socios);
+    public void write(List<? extends AccountTransfer> transfers) throws Exception {
+        repo.saveAll(transfers);
     }
 }
