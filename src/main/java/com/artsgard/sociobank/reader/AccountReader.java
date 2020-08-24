@@ -23,7 +23,7 @@ public class AccountReader {
                 .name("socio-bank-reader")
                 .resource(new FileSystemResource("accounts.csv"))
                 .strict(true)
-                .linesToSkip(1)
+                .linesToSkip(0)
                 .delimited().delimiter(";")
                 .names(new String[]{"iban", "username", "balance", "currency", "creationDate", "active"})
                 .fieldSetMapper(accountMapper)

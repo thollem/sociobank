@@ -53,7 +53,7 @@ public class AccountServiceImpl implements AccountService {
     
     @Override
     public AccountDTO findAccountByUsername(String username) {
-        Optional<Account> optAccount = repo.findAccountByUsername(username);
+        Optional<Account> optAccount = repo.findByUsername(username);
         if (optAccount.isPresent()) {
             return map.mapAccountToAccountDTO(optAccount.get());
         } else {
@@ -63,7 +63,7 @@ public class AccountServiceImpl implements AccountService {
     
     @Override
     public AccountDTO findAccountByIban(String iban) {
-        Optional<Account> optAccount = repo.findAccountByIban(iban);
+        Optional<Account> optAccount = repo.findByIban(iban);
         if (optAccount.isPresent()) {
             return map.mapAccountToAccountDTO(optAccount.get());
         } else {
@@ -133,7 +133,7 @@ public class AccountServiceImpl implements AccountService {
     
     @Override
     public boolean hasAccountByIban(String iban) {
-        Optional<Account> optAccount = repo.findAccountByIban(iban);
+        Optional<Account> optAccount = repo.findByIban(iban);
         if (optAccount.isPresent()) {
             return true;
         } else {

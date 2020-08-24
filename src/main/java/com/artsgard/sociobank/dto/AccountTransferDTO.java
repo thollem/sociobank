@@ -24,10 +24,10 @@ import lombok.ToString;
 public class AccountTransferDTO implements Serializable {
 
     @NotNull
-    private Long accountId;
+    private String ibanResource;
    
     @NotNull
-    private Long accountTransferId;
+    private String ibanDestiny;
     
     @NotNull
     @DecimalMin(value = "0.0", inclusive = false)
