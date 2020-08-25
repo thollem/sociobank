@@ -115,7 +115,7 @@ public class AccountTransferServiceImpl implements AccountTransferService {
         BigDecimal convert = convertion(acc1.getCurrency(), acc2.getCurrency());
         System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<convert: " + convert);
         BigDecimal credit = debit.multiply(convert);
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<credit: " + credit + "   / debit" + debit);
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<credit: " + credit + "   / debit " + debit);
         acc1.setBalance(acc1.getBalance().subtract(debit));
         acc2.setBalance(acc2.getBalance().add(credit));
         accountRepo.save(acc1);
